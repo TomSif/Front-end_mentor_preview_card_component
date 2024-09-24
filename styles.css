@@ -1,0 +1,39 @@
+/* Define colors of the project */
+
+:root {
+  /* ### Primary */
+  --Darkcyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  /* ### Neutral */
+  --Very_dark_blue: hsl(212, 21%, 14%);
+  --Dark_grayish_blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* Define Fonts */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+  font-weight: 500, 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(./fonts/Fraunces-VariableFont_SOFT\WONK\opsz\wght.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Reset to default project */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px; /* Now, 1rem = 14px */
+}
+
+/* Start styling  */
